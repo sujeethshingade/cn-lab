@@ -1,18 +1,71 @@
-## Getting Started
+# Output
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 1
 
-## Folder Structure
+Enter number of data bits :  
+4
+Enter data bits :
+1
+0
+0
+1
+Enter number of bits in divisor :
+4
+Enter Divisor bits :
+1
+0
+1
+1
+Dividend (after appending 0's) are : 1001000
 
-The workspace contains two folders by default, where:
+CRC code :
+1001110
+Enter CRC code of 7 bits :  
+1
+0
+0
+1
+1
+1
+0
+No Error
+THANK YOU. .... )
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 2
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Enter number of data bits :  
+7
+Enter data bits :
+1
+0
+1
+1
+0
+0
+1
+Enter number of bits in divisor :
+3
+Enter Divisor bits :
+1
+0
+1
+Dividend (after appending 0's) are : 101100100
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+CRC code :
+101100111
+Enter CRC code of 9 bits :  
+1
+0
+1
+1
+0
+0
+1
+1
+0
+0
+1
+0
+1
+Error
+THANK YOU. .... )
